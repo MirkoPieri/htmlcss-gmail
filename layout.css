@@ -1,0 +1,78 @@
+#title {
+  display: inline-block;
+  line-height: 8px;
+}
+
+#logo {
+  width: 80px;
+  height: 80px;
+}
+
+#page {
+  width: 70%;
+  margin: auto;
+}
+
+#button {
+  border: 1px solid orange;
+  border-radius: 50%;
+  background-color: orange;
+}
+
+  input[type= "checkbox"], button {
+  cursor: pointer;
+
+}
+
+input[type="checkbox"] {
+  line-height: 16px;
+
+}
+
+#botton {
+  visibility: hidden;
+    font-size:20px;
+    cursor: pointer;
+    margin: 8px;
+}
+
+#botton:before {
+   content: "\2606";
+   position: relative;
+   visibility: visible;
+
+}
+
+#botton:checked:before {
+   content: "\2605";
+
+}
+
+.border {
+  border-top: solid 0.5px white;
+  border-bottom: solid 0.5px white;
+  background-color: grey;
+}
+
+#image {
+  background-image: url("immagine/images.jpg");
+  background-size: cover;
+}
+
+h2 {
+  color: white;
+}
+
+.mod {
+  background-color: #FFF8DC;
+}
+
+#ali {
+  font-family: "Times New Roman";
+  color: white;
+  font-size: 15pt;
+}
+
+#dim {
+    font-size: 8pt;
+}
